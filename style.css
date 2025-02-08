@@ -235,4 +235,21 @@ section{
   margin-top:7rem;
 }
 
+#submit{
+  background-color:#0ef;
+  color: dark grey;
+  margin-top:2rem;
+  padding:.5rem;
+  border-radius:.5rem;
+}
+
+.h1{
+  animation:display-text 16s linear infinite;
+  animation-delay:calc(-4s * var(--i));
+}
+
+
+
+
+
   
