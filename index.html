@@ -15,36 +15,41 @@
   
     <header class="header">
 
-    <a href="#" class="logo  text-white">Portfolio</a>
-    <i class="fa-solid fa-bars" id="menu-icon"></i>
-
-    <ul class="navlist">
+      <a href="#" class="logo  text-white">Port<span class="text-[#0ef]">folio</span></a>
+      
+    <ul  id="menu" class="navlist duration-300 grow flex justify-end gap-8 absolute md:relative flex-col md:flex-row top-[-400%] md:top-[inherit] bg-[#262525] w-[100%]  left-0 right-0 m-auto md:left-auto md:right-auto px-10  md:p-0] ">
     <li><a href="#" class="active">Home</a></li>
     <li><a href="#about-section">About</a></li>
     <li><a href="#skills-section">Skills</a></li>
     <li><a href="#projects-section">Project</a></li>
     <li><a href="#contact-section">Contact</a></li>
     </ul> 
+      
+      <div   class="md:hidden flex justify-end grow text-white  ">
+    <i   class="fa-solid fa-bars  cursor-pointer"  id="menuToggle"></i>
+      </div>
+      
     </header>
+  
 <div class="left-container">
-    <div class="icons">
-     <a href="https://www.facebook.com/ananaya.singh.3557"> <i class="fa-brands fa-facebook-f"></i></a>
-     <a href="https://www.linkedin.com/in/preeti-singh-045346192/"> <i class="fa-brands fa-linkedin-in"></i></a>
-      <a href="https://github.com/18Preetis"><i class="fa-brands fa-github"></i></a>
-      <a href="https://codepen.io/18Preetis"   <i class="fa-brands fa-codepen"></i></a>
+    <div class="icons  gap-[1rem] md:gap-[3rem]   mt-[-180px] md:mt-[100px] ">
+     <a href="https://www.facebook.com/ananaya.singh.3557"> <i class="fa-brands fa-facebook-f  text-xs md:text-base"></i></a>
+     <a  class="text-xs sm:text-base" href="https://www.linkedin.com/in/preeti-singh-045346192/"> <i class="fa-brands fa-linkedin-in text-xs sm:text-base"></i></a>
+      <a href="https://github.com/18Preetis"><i class="fa-brands fa-github text-xs md:text-base"></i></a>
+      <a href="https://codepen.io/18Preetis"><i class="fa-brands fa-codepen text-xs md:text-base"></i></a>
     </div>
 
   
-  <div class="content">
+  <div class="content mt-[14rem] md:mt-[6rem] justify-content:between">
   
-  <p class="text-white text-xl font-bold">Hello,It's Me</p>
-     <h2 class="text-4xl  text-[#0ef] " >Preeti Singh</h2>
-    <h1 class="text-white text-3xl  ">And I'm a <span style="--i:2;"class="text-3xl text-[#0ef] text"
+  <p class="text-white text-sm md:text-xl font-bold">Hello,It's Me</p>
+     <h2 class="text-lg md:text-4xl  text-[#0ef] " >Preeti Singh</h2>
+    <h1 class="text-white text-sm md:text-3xl  ">And I'm a <span style="--i:2;"class="text-sm md:text-3xl text-[#0ef] text"
       >Web Developer.</span>
-<!--       <span style="--i:1;">Frontened Developer</span> -->
+
       </h1>
     
-    <p class="detail Times New Roman ">I'am a web Designer with extensive experience for over 2 years, expertise in to create website design, frontened design, and many more..</p>
+    <p class="detail Times New Roman justify-content:between ">I'am a web Designer with extensive experience for over 2 years, expertise in to create website design, frontened design, and many more..</p>
   <div class="btn-container">
   <button><a href ="#contact-section">Hire Me</a></button>
     <button><a href="CV(Preeti Singh) (1).pdf" download="" > Download CV</a></button>
@@ -54,9 +59,9 @@
 
 <section id="about-section" >
   <div>
-  <h2 class="text-white font-semibold text-6xl cursor-not-allowed">About</h2><span class="font-semibold text-[#0ef] text-4xl"> Me</span><br>
-  <h3 class= "text-white text-3xl text ">Frontened Developer</h3><br>
-  <p class="text-white">I'am passionate front-end developer and freelance enthusiasts. I specialize in building visually appealing and user-friendly websites using HTML5, CSS and JavaScript.</p><br>
+  <h2 class="text-white font-semibold text-xl md:text-4xl cursor-not-allowed">About</h2><span class="font-semibold text-[#0ef] text-xl md:text-4xl"> Me</span><br>
+  <h3 class= "text-white text-lg md:text-3xl  ">Frontened Developer</h3><br>
+  <p class="text-white justify-content:center">I'am passionate front-end developer and freelance enthusiasts. I specialize in building visually appealing and user-friendly websites using HTML5, CSS and JavaScript.</p><br>
    
 
      
@@ -96,7 +101,10 @@
           </div>
          </div>
        </div>
-
+       
+        
+       
+       
         <div class="max-w-[1000px] mx-auto p-4 flex-col justify center w-full h-full text-center">
 
          <div class="grid grid-cols-3 mt-12" >
@@ -108,7 +116,7 @@
            </div>
            <div class="shadow-md shadow-(#040c16) hover:scale-110 duration-500">
            <div class="w-20 mx-auto">
-              <img src="Bootstrap.png">
+              <img src="Bootstrap.jpeg">
              <p class="text-white"> Bootstrap CSS</p>
             </div>
            </div>
@@ -118,15 +126,21 @@
              <p class="text-white"> Git </p>
             </div>
            </div>
-           <div class="shadow-md shadow-(#040c16) hover:scale-110 duration-500">
-           <div class="w-20 mx-auto">
-              <img src="aws.png">
-             <p class="text-white">AWS</p>
-            </div>
-           </div>
+        
          </div>
     </div>
 
+       
+       <div class="grid grid-cols-3 mt-12" >
+         <div class="shadow-md shadow-(#040c16) hover:scale-110 duration-500">
+         <div class="w-20 mx-auto">
+           <img src="aws.png">
+           <p class="text-white"> AWS</p>
+         </div>
+         </div>
+        
+       </div>
+       
 
   </section>  
     
@@ -233,6 +247,12 @@
     
     });
     
+  document.querySelector('#menuToggle').addEventListener('click', ()=>{
+    let menu= document.getElementById('menu');
+      menu.classList.toggle('top-[50px]');
+  });
+      
+      
     
      
 
